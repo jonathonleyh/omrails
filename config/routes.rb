@@ -1,4 +1,8 @@
 Omrails::Application.routes.draw do
+
+  root to: "application#index"
+
+  resources :application
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
