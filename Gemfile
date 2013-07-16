@@ -15,6 +15,10 @@ end
 
 gem 'rails_12factor'
 
+gem 'devise', github: 'plataformatec/devise', branch: 'rails4'
+
+gem 'simple_form'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0.rc2'
 
